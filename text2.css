@@ -1,6 +1,6 @@
 body{
     width: 100%;
-    height: 4570px;
+    height: 4560px;
     margin: 0;
     background-color: rgb(255, 255, 255);
     display: flex;
@@ -41,6 +41,10 @@ body{
     width: 750px;
     margin: 0 auto;
     text-align: center;
+}
+.ibelieve p{
+    margin-top: 0;
+    margin-bottom: 0;
 }
 .overline{
     width: 150px;
@@ -124,4 +128,127 @@ body{
 iframe{
     width: 1000px;
     height: 550px;
+}
+.salary{
+    height: 200px;
+    margin-top: 180px;
+    display: flex;
+    justify-content: space-around;
+}
+.starting,.sixmonth,.oneyear,.threeyears{
+    width: 260px;
+}
+.salary h1{
+    font-size: 32px;
+    margin-bottom: 18px;
+}
+.salary p{
+    border: 4px solid black;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    margin-top: 2px;
+    padding-top: 20px;
+}
+.analysis{
+    width: auto;
+    height: 500px;
+    margin-top: 170px;
+    font-size: 18px;
+}
+.analysis table td{
+    border: 1px solid rgb(158, 151, 151);
+}
+.analysis table{
+    border-collapse: collapse;
+    margin: 0 auto;
+    width: 1100px;
+    height: 330px;
+    text-align: center;
+}
+.competitorsanalysis{
+    background-color: rgb(110, 109, 109);
+    font-weight: bold;
+    font-size: 23px;
+}
+.totalcost,.permonth,.empty{
+    background-color: rgb(231, 231, 231);
+}
+.maincolumn{
+    background-color: rgb(177, 173, 173);
+    font-weight: bold;
+}
+.tobecontinued{
+    width: 190px;
+    height: 120px;
+    margin: 0  auto;
+    font-size: 48px;
+}
+.footer{
+    background-color:rgb(0, 0, 0);
+    width: 100%;
+    height: 240px;
+    color: grey;
+    margin-top: 100px;
+    font-family: 'Public Sans', sans-serif;
+    font-size: 14px;
+}
+.tilda{
+    width: 600px;
+    height: 240px;
+    margin: 0 auto;
+}
+.pic{
+    width: 50px;
+    height: 50px;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.pic img{
+    width: 50px;
+    height: 50px;
+}
+.text{
+    margin-top: 20px;
+    width: 370px;
+    height: 60px;
+    text-align: center;
+    margin: 0 auto;
+}
+.tilda form{
+    width: 150px;
+    margin: 0 auto;
+}
+.tilda form button{
+    width: 150px;
+    height: 40px;
+    background-color: grey;
+    text-align: center;
+    border-radius: 40px;
+    color: black; 
+    margin-top: 5px;
+    border: none;  
+}
+.tilda form button:hover{
+    box-shadow: 0 0 3px 3px grey;
+    background-color: white;
+}
+.tilda:hover{
+    color: rgb(253, 253, 253);
+}
+.about{
+    text-align: center;
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.about a{
+    color: grey;
+    text-decoration: none;
+}
+.about a:hover{
+    color: white;
 }
