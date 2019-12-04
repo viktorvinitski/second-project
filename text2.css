@@ -5,6 +5,7 @@ body{
     background-color: rgb(255, 255, 255);
     display: flex;
     flex-direction: column;
+    font-family: 'Roboto', sans-serif;
 }
 .advice{
     width: 950px;
@@ -14,9 +15,9 @@ body{
     border: 4px solid black;
     border-left: none;
     border-right: none;
-    font-size: 43px;
+    font-size: 32px;
+    font-weight: bold;
     text-align: justify;
-    font-family: 'Yanone Kaffeesatz', sans-serif;
 }
 .advice p{
     margin-top: 10px;
@@ -37,7 +38,7 @@ body{
 }  
 
 .ibelieve{
-    font-size: 45px;
+    font-size: 40px;
     width: 750px;
     margin: 0 auto;
     text-align: center;
@@ -74,7 +75,7 @@ body{
     height: 300px;
 }
 .advantages div{
-    width: 260px;
+    width: 300px;
     height: 130px;
     margin: 0 auto;
 }
@@ -89,8 +90,10 @@ body{
     width: 800px;
     height: 680px;
     margin: 0 auto;
-    font-family: 'Open Sans Condensed', sans-serif;
-    font-size: 22px;
+    font-size: 17px;
+}
+.possibilities h3,.possibilities p{
+    margin-left: 20px;
 }
 .futuredev{
     width: 500px;
@@ -107,7 +110,7 @@ body{
 }
 .person1,.person2,.person3,.person4{
     height: 210px;
-    width: 220px;
+    width: 210px;
     text-align: center;
     font-weight: bold;
     font-size: 20px;
@@ -133,13 +136,13 @@ iframe{
     height: 200px;
     margin-top: 180px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 .starting,.sixmonth,.oneyear,.threeyears{
-    width: 260px;
+    width: 240px;
 }
 .salary h1{
-    font-size: 32px;
+    font-size: 28px;
     margin-bottom: 18px;
 }
 .salary p{
@@ -179,7 +182,7 @@ iframe{
     font-weight: bold;
 }
 .tobecontinued{
-    width: 190px;
+    width: 210px;
     height: 120px;
     margin: 0  auto;
     font-size: 48px;
@@ -190,7 +193,6 @@ iframe{
     height: 240px;
     color: grey;
     margin-top: 100px;
-    font-family: 'Public Sans', sans-serif;
     font-size: 14px;
 }
 .tilda{
@@ -216,21 +218,27 @@ iframe{
     text-align: center;
     margin: 0 auto;
 }
-.tilda form{
+.tilda .btn{
     width: 150px;
     margin: 0 auto;
 }
-.tilda form button{
+.btn{
     width: 150px;
     height: 40px;
     background-color: grey;
     text-align: center;
     border-radius: 40px;
     color: black; 
-    margin-top: 5px;
-    border: none;  
+    border: none;
+    
+}        
+.btn p{
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 10px;
+    text-decoration: underline grey;
 }
-.tilda form button:hover{
+.btn:hover{
     box-shadow: 0 0 3px 3px grey;
     background-color: white;
 }
