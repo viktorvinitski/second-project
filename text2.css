@@ -18,6 +18,7 @@ body{
     font-size: 32px;
     font-weight: bold;
     text-align: justify;
+    background: linear-gradient(to top, rgb(119, 119, 248), rgb(109, 252, 109));
 }
 .advice p{
     margin-top: 10px;
